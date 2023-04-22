@@ -32,7 +32,7 @@ variable "gcr_region" {
 variable "github_owner" {
   description = "Name of the GitHub Repository Owner."
   type        = string
-  default     = "gruntwork-io"
+  default     = "tnn-gruntwork-io"
 }
 
 variable "github_repository" {

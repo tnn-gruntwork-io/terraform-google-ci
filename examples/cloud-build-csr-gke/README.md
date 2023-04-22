@@ -63,7 +63,7 @@ Now that we have configured Cloud Build, we are ready to deploy all of the examp
 Build triggers!
 
 1. If you haven't already, clone this repo:
-   - `$ git clone https://github.com/gruntwork-io/terraform-google-ci.git`
+   - `$ git clone https://github.com/tnn-gruntwork-io/terraform-google-ci.git`
 1. Make sure you are in the `cloud-build-csr-gke` example folder:
    - `$ cd examples/cloud-build-csr-gke`
 1. Initialize terraform:
@@ -93,12 +93,12 @@ At the end of `terraform apply`, you should now have a working CI/CD pipeline de
 ## Triggering a Build
 
 To trigger a build we need to commit and push some changes to the Cloud Source Repository. For the purposes of this
-example, we have prepared a [sample GitHub repository](https://github.com/gruntwork-io/sample-app-docker) with a
+example, we have prepared a [sample GitHub repository](https://github.com/tnn-gruntwork-io/sample-app-docker) with a
 basic application. We recommend you clone this repository and push it to the Cloud Source Repository that was created
 in the previous step.
 
 1. Clone the `sample-app-docker` repo to an empty directory outside of this example:
-   - `$ git clone https://github.com/gruntwork-io/sample-app-docker.git`
+   - `$ git clone https://github.com/tnn-gruntwork-io/sample-app-docker.git`
 1. Add the the Cloud Source Repository as a remote:
    - `$ git remote google ssh://[EMAIL]@source.developers.google.com:2022/p/[PROJECT_ID]/r/[REPO_NAME]`
    - **Note:** Be sure to replace the [EMAIL] (Google IAM user's address), [PROJECT_ID] and [REPO_NAME] with your values.
