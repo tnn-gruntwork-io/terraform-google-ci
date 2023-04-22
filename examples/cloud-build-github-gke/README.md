@@ -41,7 +41,7 @@ Windows.
 
 ## Preparing the GitHub Repo
 
-For the purposes of this example, we have prepared a [sample GitHub repository](https://github.com/gruntwork-io/sample-app-docker)
+For the purposes of this example, we have prepared a [sample GitHub repository](https://github.com/tnn-gruntwork-io/sample-app-docker)
 with a basic application to build. We recommend you fork this repo to your GitHub organization. In the next step, we'll configure
 Cloud Build to access this repo.
 
@@ -79,7 +79,7 @@ If you wish to modify any of the settings in the future, you can do so directly 
 Now that we have installed the GitHub app, we are ready to deploy all of the example resources and also set up the Google Cloud Build triggers!
 
 1. If you haven't already, clone this repo:
-   - `git clone https://github.com/gruntwork-io/terraform-google-ci.git`
+   - `git clone https://github.com/tnn-gruntwork-io/terraform-google-ci.git`
 1. Make sure you are in the `cloud-build-github-gke` example folder:
    - `cd examples/cloud-build-github-gke`
 1. Initialize terraform:
@@ -92,7 +92,7 @@ Now that we have installed the GitHub app, we are ready to deploy all of the exa
    - `project = "project-name-123456"`
    - `region = "europe-west3"`
    - `location = "europe-west3"`
-   - `github_owner = "gruntwork-io"`
+   - `github_owner = "tnn-gruntwork-io"`
    - `github_repository = "sample-app-docker"`
    - `branch_name = "master"`
    - `cluster_name = "example-private-cluster"`

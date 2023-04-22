@@ -6,7 +6,7 @@ If you wish to be the maintainer for this project, we are open to considering th
 
 —--
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gruntwork-io/terraform-google-ci.svg?label=latest)](https://github.com/gruntwork-io/terraform-google-ci/releases/latest)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/tnn-gruntwork-io/terraform-google-ci.svg?label=latest)](https://github.com/tnn-gruntwork-io/terraform-google-ci/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D1.0.x-blue.svg)
 
 # Google CI/CD Modules
@@ -15,27 +15,27 @@ This repo contains modules and examples to deploy CI/CD pipelines on Google Clou
 
 ## Quickstart
 
-If you want to quickly deploy an automated CI/CD pipeline using Google Cloud Build and a Google Kubernetes Engine (GKE) cluster that is triggered from a Google Cloud Source Repository, check out the [cloud-build-csr-gke example documentation](https://github.com/gruntwork-io/terraform-google-ci/tree/master/examples/cloud-build-csr-gke)
+If you want to quickly deploy an automated CI/CD pipeline using Google Cloud Build and a Google Kubernetes Engine (GKE) cluster that is triggered from a Google Cloud Source Repository, check out the [cloud-build-csr-gke example documentation](https://github.com/tnn-gruntwork-io/terraform-google-ci/tree/master/examples/cloud-build-csr-gke)
 for instructions.
 
 ## What's in this repo
 
 This repo has the following folder structure:
 
-- [root](https://github.com/gruntwork-io/terraform-google-ci/tree/master): The root folder contains various documentation and licenses.
+- [root](https://github.com/tnn-gruntwork-io/terraform-google-ci/tree/master): The root folder contains various documentation and licenses.
 
-- [modules](https://github.com/gruntwork-io/terraform-google-ci/tree/master/modules): This folder contains the
+- [modules](https://github.com/tnn-gruntwork-io/terraform-google-ci/tree/master/modules): This folder contains the
   main implementation code for this Module, broken down into multiple standalone submodules.
 
   The primary module is:
 
-  - [gcr-registry](https://github.com/gruntwork-io/terraform-google-ci/tree/master/modules/gcr-registry): The GCR Registry module is used to
+  - [gcr-registry](https://github.com/tnn-gruntwork-io/terraform-google-ci/tree/master/modules/gcr-registry): The GCR Registry module is used to
     setup and configure [Google Container Registry](https://cloud.google.com/container-registry/).
 
-- [examples](https://github.com/gruntwork-io/terraform-google-ci/tree/master/examples): This folder contains
+- [examples](https://github.com/tnn-gruntwork-io/terraform-google-ci/tree/master/examples): This folder contains
   examples of how to use the submodules.
 
-- [test](https://github.com/gruntwork-io/terraform-google-ci/tree/master/test): Automated tests for the submodules
+- [test](https://github.com/tnn-gruntwork-io/terraform-google-ci/tree/master/test): Automated tests for the submodules
   and examples.
 
 ## What is Google Cloud Build?
@@ -72,13 +72,13 @@ Gruntwork can help with:
 
 ## How do I contribute to this Module?
 
-Contributions are very welcome! Check out the [Contribution Guidelines](https://github.com/gruntwork-io/terraform-google-ci/blob/master/CONTRIBUTING.md)
+Contributions are very welcome! Check out the [Contribution Guidelines](https://github.com/tnn-gruntwork-io/terraform-google-ci/blob/master/CONTRIBUTING.md)
 for instructions.
 
 ## How is this Module versioned?
 
 This Module follows the principles of [Semantic Versioning](http://semver.org/). You can find each new release, along
-with the changelog, in the [Releases Page](https://github.com/gruntwork-io/terraform-google-ci/releases).
+with the changelog, in the [Releases Page](https://github.com/tnn-gruntwork-io/terraform-google-ci/releases).
 
 During initial development, the major version will be 0 (e.g., `0.x.y`), which indicates the code does not yet have a
 stable API. Once we hit `1.0.0`, we will make every effort to maintain a backwards compatible API and use the MAJOR,
@@ -86,7 +86,7 @@ MINOR, and PATCH versions on each release to indicate any incompatibilities.
 
 ## License
 
-Please see [LICENSE](https://github.com/gruntwork-io/terraform-google-ci/blob/master/LICENSE) for how the code in this
+Please see [LICENSE](https://github.com/tnn-gruntwork-io/terraform-google-ci/blob/master/LICENSE) for how the code in this
 repo is licensed.
 
 Copyright &copy; 2019 Gruntwork, Inc.
